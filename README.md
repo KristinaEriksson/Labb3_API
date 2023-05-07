@@ -21,3 +21,11 @@ Det andra steget du ska göra är att skapa ett REST-API som tillåter externa t
 - [ ]  Koppla en person till ett nytt intresse
 - [ ]  Lägga in nya länkar för en specifik person och ett specifikt intresse
 </aside>
+<aside>
+🕹️ **Testa ditt API**
+
+Det sista steget är att göra anrop mot ditt API genom tjänsten [Postman](https://www.postman.com/) eller swagger. 
+
+- [ ]  Gör ett anrop för varje krav ovan för API:et
+- [ ]  I din readme-fil i Git lägger du in alla anrop du gjort för varje krav ovan kring APIet så vi kan se hur du tänker dig att anropen ska se ut.
+</aside>
