@@ -30,7 +30,7 @@ namespace Labb3_API.Controllers
         }
 
         // Get all interests connected to one member
-        [HttpGet("{id:int}")]
+        [HttpGet("Get all interest connected to one member")]
         public async Task<ActionResult<List<InterestDTO>>> AllInterestMember(int id)
         {
             if (id == 0)
@@ -44,7 +44,7 @@ namespace Labb3_API.Controllers
             return Ok(interest);
         }
         // Connect a member to a interest
-        [HttpPost]
+        [HttpPost("Connect a member to a interest")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<InterestCreateDTO>> CreateInterest([FromBody] InterestCreateDTO interestCreateDTO)
         {

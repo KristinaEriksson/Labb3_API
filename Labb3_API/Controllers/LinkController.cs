@@ -31,7 +31,7 @@ namespace Labb3_API.Controllers
         }
 
         // Get all links that is connected to one member
-        [HttpGet("{id:int}")]
+        [HttpGet("Get all links connected to one member")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -54,7 +54,7 @@ namespace Labb3_API.Controllers
         }
 
         // Add new links to one member and interest
-        [HttpPost]
+        [HttpPost("Add new link to one member and interest")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]

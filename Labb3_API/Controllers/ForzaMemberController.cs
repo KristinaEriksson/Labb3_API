@@ -23,7 +23,7 @@ namespace Labb3_API.Controllers
         }
 
         // Get all 
-        [HttpGet]
+        [HttpGet("Get All members")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<MemberDTO>>> GetMember()
         {
